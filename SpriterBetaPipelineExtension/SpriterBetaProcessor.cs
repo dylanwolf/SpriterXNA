@@ -99,10 +99,12 @@ namespace SpriterBetaPipelineExtension {
         ExternalReference<TextureContent> textureReference = new ExternalReference<TextureContent>(inputFilename);
         TextureContent texture = context.BuildAndLoadAsset<TextureContent, TextureContent>(textureReference, "TextureProcessor");
         sourceSprites.Add(texture.Faces[0][0]);
+        sprite.ImageNames.Add(inputFilename);
       }
 
       // Pack all the sprites onto a single texture.
       BitmapContent packedSprites = SpritePacker.PackSprites(sourceSprites, sprite.ImageRectangles, context);
+
       sprite.Texture.Mipmaps.Add(packedSprites);
     }
   }

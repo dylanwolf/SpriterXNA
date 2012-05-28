@@ -7,3 +7,5 @@ _ReSharper*
 */*/bin/*
 */*/obj/*
 *.cachefile
+*.user
+

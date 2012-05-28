@@ -7,7 +7,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SpriterBetaPipelineExtension</RootNamespace>
-    <AssemblyName>ContentPipelineExtension1</AssemblyName>
+    <AssemblyName>SpriterBetaPipelineExtension</AssemblyName>
     <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
     <XnaPlatform>Windows</XnaPlatform>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>

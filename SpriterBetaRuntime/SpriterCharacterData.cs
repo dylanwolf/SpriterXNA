@@ -34,6 +34,9 @@ namespace SpriterBetaRuntime {
     public List<Rectangle> imageRectangles = null;
 
     [ContentSerializer]
+    public List<String> imageNames = null;
+
+    [ContentSerializer]
     public List<Vector2> imageHotspots = null;
 
     [ContentSerializer]
